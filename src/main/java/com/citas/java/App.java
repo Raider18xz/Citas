@@ -3,6 +3,7 @@ package com.citas.java;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Month;
+
 import com.citas.java.Entidades.Citas_Enfermero;
 import com.citas.java.Entidades.Citas_Medico;
 import com.citas.java.Entidades.Enfermero;
@@ -64,6 +65,8 @@ public class App
             System.out.println(cte.toString());
             System.out.println(cte2.toString());
 
+            ct.CitaCancel();
+            System.out.println(ct.getEstado());
 
         }
 }
